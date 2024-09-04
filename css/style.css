@@ -16,6 +16,8 @@ body{
     color:#4d5ae5;
 
     margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .spa{
@@ -225,6 +227,9 @@ p{
 
 .footer{
     background-color:#2e2f42;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .span{
@@ -290,7 +295,7 @@ p{
 
 .benefits-class-strategy{
 
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 
 }
 
