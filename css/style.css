@@ -284,10 +284,8 @@ p{
     display: flex;
     gap: 24px;
 
-}
-
-.benefits-class-strategy{
-
     width: calc((100% - 72px) / 4);
 
 }
+
+
