@@ -179,7 +179,10 @@ p{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+
+    text-align: center;
+    margin-bottom: 8px;
     
 }
 
@@ -190,6 +193,8 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+
+    text-align: center;
 }
 
 .our-team{
@@ -199,6 +204,8 @@ p{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+
+    margin-bottom: 72px;
 }
 
 .img{
@@ -314,7 +321,27 @@ p{
     overflow: hidden;
 }
 
-.webtime{
+.web{
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.images{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.people-images-first{
+    display: flex;
+    gap: 24px;s
+}
+
+.first-images{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.people-post{
+    padding: 32px 0;
+
 }
