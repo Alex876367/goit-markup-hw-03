@@ -131,6 +131,9 @@ ul{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
+
+    visibility: hidden;
+
 }
 
 h3{
@@ -153,6 +156,8 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+
+    margin-bottom: 8px;
 }
 
 .goal{
@@ -266,5 +271,23 @@ p{
 .address{
     display: flex;
     gap: 40px;
+
+}
+
+.benefits{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.benefits-class{
+    display: flex;
+    gap: 24px;
+
+}
+
+.benefits-class-strategy{
+
+    width: calc((100% - 72px) / 4);
 
 }
