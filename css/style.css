@@ -16,6 +16,7 @@ body{
     color:#4d5ae5;
 
     margin-right: 76px;
+
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -26,6 +27,8 @@ body{
     font-weight: 700;
     font-style: normal;
     color:#2e2f42;
+
+    display: inline-block;
 }
 
 a{
