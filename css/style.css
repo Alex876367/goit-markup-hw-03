@@ -17,8 +17,6 @@ body{
 
     margin-right: 76px;
 
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .spa{
@@ -28,7 +26,7 @@ body{
     font-style: normal;
     color:#2e2f42;
 
-    display: inline-block;
+   
 }
 
 a{
@@ -314,4 +312,9 @@ p{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.webtime{
+    display: inline-block;
+    margin-bottom: 16px;
 }
