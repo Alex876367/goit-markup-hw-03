@@ -20,6 +20,8 @@ body{
     display: flex;
     margin-bottom: 16px;
 
+    margin-top: 16px;
+
 }
 
 .spa{
@@ -46,7 +48,7 @@ ul{
     font-style: normal;
     font-size: 56px;
     line-height: 1.07;
-   text-align: center;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 
@@ -172,6 +174,7 @@ p{
 .goal{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 .images{
@@ -256,12 +259,14 @@ p{
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
+    height: auto;
 }
 
 .first-images{
     background-color: #FFFFFF;
 
-    width: calc((100% - 72px) / 4);
+    width: 264px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -300,6 +305,8 @@ p{
 .address{
     display: flex;
     gap: 40px;
+
+    margin-left: 210px;
 
 }
 
@@ -351,6 +358,7 @@ p{
 
 .people-post{
     padding: 32px 0;
+    
 }
 
 .portfolio{
@@ -378,6 +386,11 @@ p{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    width: 360px;
+}
 
+.container-header{
+
+display: flex;
 
 }
