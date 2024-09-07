@@ -17,7 +17,7 @@ body{
 
     margin-right: 76px;
 
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
 
 }
@@ -78,7 +78,6 @@ ul{
 
 .add{
     font-style: normal;
-   
 
 }
 
@@ -290,6 +289,9 @@ p{
 
 .menu{
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 40px;
 }
 
