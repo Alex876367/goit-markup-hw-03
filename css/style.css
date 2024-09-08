@@ -322,26 +322,6 @@ p{
 
 }
 
-.benefits-class-strategy{
-
-    width: calc((100% - 72px) / 4);
-
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0 0);
-    overflow: hidden;
-  }
-
-
 
 .images{
     padding-top: 120px;
@@ -377,10 +357,6 @@ p{
     row-gap: 48px;
 }
 
-.portfolio-section-first{
-    width: calc((100% - 48px) / 3);
-
-}
 
 .force-container{
     padding: 32px 16px;
@@ -397,4 +373,28 @@ display: flex;
 
 .display{
     display: inline-block;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0 0);
+    overflow: hidden;
+  }
+
+  .portfolio-section-first{
+    width: calc((100% - 48px) / 3);
+  }
+
+  .benefits-class-strategy{
+
+    width: calc((100% - 72px) / 4);
+
 }
