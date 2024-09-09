@@ -403,3 +403,9 @@ display: flex;
     width: calc((100% - 72px) / 4);
 
 }
+
+.benefits-first{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
