@@ -40,6 +40,8 @@ a{
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .sol{
@@ -169,6 +171,8 @@ p{
     color:#2e2f42;
 
     margin-bottom: 8px;
+
+
 }
 
 .goal{
@@ -271,7 +275,7 @@ p{
 }
 
 .container{
-    width: 1158px ;
+    max-width: 1158px ;
     
     margin: 0 auto;
     padding-left: 15px;
@@ -306,7 +310,8 @@ p{
     display: flex;
     gap: 40px;
 
-    margin-left: 210px;
+    margin-left: 270px;
+    margin-top: 15px;
     
 }
 
