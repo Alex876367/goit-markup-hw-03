@@ -214,9 +214,9 @@ p{
     background-color: #FFFFFF;
 
     text-align: center;
-    margin-bottom: 8px;
-
     margin: 0 auto;
+    margin-bottom: 8px;
+    
     
 }
 
@@ -265,8 +265,9 @@ p{
     letter-spacing: 0.02em;
     color:#2e2f42;
 
-    margin-bottom: 8px;
+    
     margin: 0 auto;
+    margin-bottom: 8px;
 }
 
 .paragraf{
